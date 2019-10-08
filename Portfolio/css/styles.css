@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Yantramanav&display=swap');
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3{
+	font-family: 'Yantramanav', sans-serif;
+}
+
+p, span{
+    font-family: 'Source Sans Pro', sans-serif;
+	
+}
+

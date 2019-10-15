@@ -19,3 +19,32 @@ p{
 	color:black;
 }
 
+#isu_logo{
+	width: 15%;
+}
+
+
+#mastercontainer{
+	position:relative;
+}
+#mobilenavbar{
+	display:none;
+}
+
+@media (max-width: 768px){
+	#mobilenavbar{
+	display:block;
+	position:absolute;
+	top:0;
+	right:20px;
+	cursor:pointer;
+	}
+
+	#navbar{
+	display:none;
+	}
+}
+
+
+
+

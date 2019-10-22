@@ -10,6 +10,9 @@
 
 h1,h2,h3{
 	font-family: 'Yantramanav', sans-serif;
+	display:inline-block;
+	font-weight: 300;
+	margin-bottom: 0;
 }
 
 p, span{

@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 }
 
+
+
 h1,h2,h3{
 	font-family: 'Yantramanav', sans-serif;
 }
@@ -20,7 +22,7 @@ p{
 }
 
 #isu_logo{
-	width: 15%;
+	width: 10%;
 }
 
 
@@ -45,6 +47,6 @@ p{
 	}
 }
 
-
-
-
+html{
+	scroll-behavior: smooth;
+}

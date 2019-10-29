@@ -1,55 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Yantramanav&display=swap');
+@import
+	url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Yantramanav&display=swap')
+	;
 
-*{
+* {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
-
-
-h1,h2,h3{
+h1, h2, h3 {
 	font-family: 'Yantramanav', sans-serif;
-	display:inline-block;
+	display: inline-block;
 	font-weight: 300;
 	margin-bottom: 0;
 }
 
-p, span{
-    font-family: 'Source Sans Pro', sans-serif;
-	
+p, span {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-p{
-	color:black;
+p {
+	color: black;
 }
 
-#isu_logo{
+#isu_logo {
 	width: 10%;
+	float: left;
+	margin: 15px 15px 30px 0;
+	animation: fadeInLeft 1s ease;
+}
+
+@keyframes fadeInLeft{
+	from{
+		opacity: 0;
+		transform: translateX(-50px);
+		}
+	to{opacity: 1}
 }
 
 
-#mastercontainer{
-	position:relative;
-}
-#mobilenavbar{
-	display:none;
+
+#mastercontainer {
+	position: relative;
 }
 
-@media (max-width: 768px){
-	#mobilenavbar{
-	display:block;
-	position:absolute;
-	top:0;
-	right:20px;
-	cursor:pointer;
+#mobilenavbar {
+	display: none;
+}
+
+@media ( max-width : 768px) {
+	#mobilenavbar {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 20px;
+		cursor: pointer;
 	}
-
-	#navbar{
-	display:none;
+	#navbar {
+		display: none;
 	}
 }
 
-html{
+html {
 	scroll-behavior: smooth;
+}
+
+#navbar .nav-item a {
+	transition: .3s ease;
+}
+
+a:hover {
+	color: #996666;
 }
